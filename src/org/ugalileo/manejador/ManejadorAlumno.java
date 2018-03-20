@@ -11,7 +11,7 @@ import org.ugalileo.db.AsistenteConsulta;
 
 /**
  *
- * @author Claudio Danilo Canel
+ * @author Carlos Marroquin
  */
 public class ManejadorAlumno {
     private static final ManejadorAlumno MANEJADOR_ALUMNO = new ManejadorAlumno();

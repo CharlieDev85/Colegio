@@ -12,7 +12,7 @@ import org.ugalileo.util.HibernateUtil;
 
 /**
  *
- * @author Claudio Danilo Canel
+ * @author Carlos Marroquin
  */
 public class AsistenteConsulta {
     private static final AsistenteConsulta ASISTENTE_CONSULTA = new AsistenteConsulta();

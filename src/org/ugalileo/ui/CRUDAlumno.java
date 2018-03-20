@@ -32,7 +32,7 @@ import org.ugalileo.manejador.ManejadorAlumno;
 
 /**
  *
- * @author Claudio Danilo Canel
+ * @author Carlos Marroquin
  */
 public class CRUDAlumno {
     private static final CRUDAlumno CRUD_ALUMNO = new CRUDAlumno();

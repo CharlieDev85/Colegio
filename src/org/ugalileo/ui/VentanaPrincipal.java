@@ -32,7 +32,7 @@ import javafx.stage.WindowEvent;
 
 /**
  *
- * @author Claudio Danilo Canel
+ * @author Carlos Marroquin
  */
 public class VentanaPrincipal extends Application {
     private Scene scene;

@@ -20,7 +20,7 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author Claudio Danilo Canel
+ * @author Carlos Marroquin
  */
 public class VentanaIngreso extends Stage {
     private static final VentanaIngreso INSTANCE = new VentanaIngreso();

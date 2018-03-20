@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 12/02/2015 09:33:22 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="org.ugalileo.bean.Nota" table="nota" catalog="colegio" optimistic-lock="version">
+        <id name="idNota" type="java.lang.Integer">
+            <column name="idNota" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="auxmateriaalumno" class="org.ugalileo.bean.Auxmateriaalumno" fetch="select">
+            <column name="idAuxMateriaAlumno" not-null="true" />
+        </many-to-one>
+        <property name="valor" type="byte">
+            <column name="valor" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
